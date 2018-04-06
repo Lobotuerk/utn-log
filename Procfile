@@ -1,2 +1,2 @@
-web: node server.js
-test: node index.js
+web: node index.js
+test: node server.js
