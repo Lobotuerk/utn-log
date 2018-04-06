@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 var http = require("http");
-var querystring = require('querystring');
 
 let rawdata = fs.readFileSync('logs.json');
 let student = JSON.parse(rawdata);

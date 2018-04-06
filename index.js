@@ -3,7 +3,6 @@
 const fs = require('fs');
 var express = require('express')
 var app = express()
-var querystring = require('querystring');
 
 let rawdata = fs.readFileSync('logs.json');
 let student = JSON.parse(rawdata);
