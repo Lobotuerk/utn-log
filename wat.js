@@ -3,13 +3,12 @@ var http = require('http');
 
 function PostCode() {
   var post_data = JSON.stringify({
-      'type': 'temp',
-      'name': '0 Kelvin',
-      'password': 'robotica'
+      'user number': 1541,
+      'content': 'test'
   });
 
   var post_options = {
-      host: 'utn-log.herokuapp.com',
+      host: 'web.whatsapp.com',
       method: 'POST'
   };
 
